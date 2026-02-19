@@ -1,0 +1,59 @@
+# ─── Version Control ───────────────────────────────────────
+.git/
+.gitignore
+
+# ─── Python Bytecode ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+
+# ─── Virtual Environments ───────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ─── Build / Dist ───────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ─── Environment & Secrets ──────────────────────────────────
+.env
+.env.*
+*.secret
+
+# ─── Docker files (not needed inside the image) ─────────────
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+
+# ─── Docs & Markdown ────────────────────────────────────────
+README.md
+*.md
+
+# ─── Logs ───────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── OS / Editor ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Jupyter ────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Test / Coverage ────────────────────────────────────────
+tests/
+test_*.py
+.pytest_cache/
+.coverage
+htmlcov/
