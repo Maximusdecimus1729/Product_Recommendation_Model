@@ -25,4 +25,4 @@ def recommend():
     return render_template('result.html', user_id=uder_id, product_id=product_id, predicted_rating=prediction.est)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=7860, debug=False)

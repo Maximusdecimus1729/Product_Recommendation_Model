@@ -1,3 +1,13 @@
+---
+title: Product Recommendation
+emoji: 🎯
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # 🎯 Product Recommendation App
 
 A Flask web application that serves real-time product recommendations using a trained **SVD (Singular Value Decomposition)** collaborative filtering model built with `scikit-surprise`.
